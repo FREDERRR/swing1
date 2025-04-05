@@ -11,6 +11,7 @@ public class Webswings extends JFrame {
     private JButton startButton, stopButton;
     private AnimatedPanel animatedPanel;
 
+
     public Webswings() {
         x = y = 100;
         timer = new Timer(10, e -> {
