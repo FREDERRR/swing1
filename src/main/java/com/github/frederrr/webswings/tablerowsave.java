@@ -26,7 +26,7 @@ import javax.swing.JOptionPane;
 public class tablerowsave extends javax.swing.JFrame {
 
     /**
-     * Creates new form sqljava
+     * Creates new
      */
     public tablerowsave() {
         initComponents();
