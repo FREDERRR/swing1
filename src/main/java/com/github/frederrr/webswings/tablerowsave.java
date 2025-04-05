@@ -14,10 +14,8 @@ import java.util.logging.Logger;
 import java.util.logging.Level;
 import java.sql.*;
 import java.util.Collections;
+import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-
-
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -380,7 +378,10 @@ public class tablerowsave extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new tablerowsave().setVisible(true);
+                tablerowsave frame = new tablerowsave();
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setSize(400, 400);
+                frame.setVisible(true);
             }
         });
     }
