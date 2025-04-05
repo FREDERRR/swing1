@@ -23,7 +23,7 @@
             "enabled": true
         },
         "jar": "target/webswings-1.0-SNAPSHOT.jar",
-        "javafx": false,
+        "javafx": true,
         "title": "Webswings"
     },
     "dependencies": {

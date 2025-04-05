@@ -383,6 +383,7 @@ public class tablerowsave extends javax.swing.JFrame {
                 frame.setSize(400, 400);
                 frame.setVisible(true);
             }
+
         });
     }
 
